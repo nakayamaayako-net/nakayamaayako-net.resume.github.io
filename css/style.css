@@ -603,6 +603,7 @@ footer{
         }
         .modal.active {
             display: flex;
+		z-index: 9999;
         }
 .arrow {
             position: absolute;
