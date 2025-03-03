@@ -259,12 +259,14 @@ document.addEventListener("DOMContentLoaded", function () {
             const images = document.querySelectorAll(".gallery img");
             const modal = document.getElementById("modal");
             const modalImage = document.getElementById("modalImage");
+            const captionText = document.getElementById("caption");
             const prevButton = document.getElementById("prev");
             const nextButton = document.getElementById("next");
             let currentIndex = 0;
             
             function openModal(index) {
                 modalImage.src = images[index].src;
+                captionText.textContent = images[index].dataset.caption;
                 modal.classList.add("active");
                 currentIndex = index;
             }
