@@ -561,8 +561,6 @@ footer{
             flex-wrap: wrap;
             gap: 10px;
             justify-content: center;
-            background-color: #f0f0f0;
-            padding: 20px;
         }
         .gallery {
             display: flex;
