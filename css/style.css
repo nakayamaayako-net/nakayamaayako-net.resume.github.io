@@ -567,6 +567,7 @@ footer{
             flex-wrap: wrap;
             gap: 10px;
             justify-content: center;
+		margin-bottom: 200px;
         }
         .gallery img {
             width: auto;
