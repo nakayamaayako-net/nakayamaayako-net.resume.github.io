@@ -254,3 +254,34 @@ document.addEventListener("DOMContentLoaded", function () {
         triggerScroll($('.mySwiper'), swiper);
     });
 });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const images = document.querySelectorAll(".gallery img");
+            const modal = document.getElementById("modal");
+            const modalImage = document.getElementById("modalImage");
+            
+            images.forEach(img => {
+                img.addEventListener("click", function () {
+                    modalImage.src = this.src;
+                    modal.classList.add("active");
+                });
+            });
+            
+            modal.addEventListener("click", function () {
+                modal.classList.remove("active");
+            });
+            
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add("visible");
+                        }, index * 200);
+                    }
+                });
+            }, { threshold: 0.2 });
+            
+            images.forEach(img => {
+                observer.observe(img);
+            });
+        });
