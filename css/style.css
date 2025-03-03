@@ -606,6 +606,23 @@ footer{
         .modal.active {
             display: flex;
         }
+.arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.5);
+            color: black;
+            border: none;
+            padding: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
 
 @media screen and (max-width:1370px){
     .tab__panel-box.is-show{
