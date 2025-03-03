@@ -605,7 +605,13 @@ footer{
         .modal.active {
             display: flex;
 		z-index: 9999;
+		flex-direction: column;
         }
+p.caption{
+	color: #FFF;
+	padding: 20px;
+	font-weight: bold;
+}
 .arrow {
             position: absolute;
             top: 50%;
