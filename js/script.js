@@ -259,16 +259,38 @@ document.addEventListener("DOMContentLoaded", function () {
             const images = document.querySelectorAll(".gallery img");
             const modal = document.getElementById("modal");
             const modalImage = document.getElementById("modalImage");
+            const prevButton = document.getElementById("prev");
+            const nextButton = document.getElementById("next");
+            let currentIndex = 0;
             
-            images.forEach(img => {
+            function openModal(index) {
+                modalImage.src = images[index].src;
+                modal.classList.add("active");
+                currentIndex = index;
+            }
+            
+            images.forEach((img, index) => {
                 img.addEventListener("click", function () {
-                    modalImage.src = this.src;
-                    modal.classList.add("active");
+                    openModal(index);
                 });
             });
             
-            modal.addEventListener("click", function () {
-                modal.classList.remove("active");
+            modal.addEventListener("click", function (event) {
+                if (event.target === modal || event.target === modalImage) {
+                    modal.classList.remove("active");
+                }
+            });
+            
+            prevButton.addEventListener("click", function (event) {
+                event.stopPropagation();
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                openModal(currentIndex);
+            });
+            
+            nextButton.addEventListener("click", function (event) {
+                event.stopPropagation();
+                currentIndex = (currentIndex + 1) % images.length;
+                openModal(currentIndex);
             });
             
             const observer = new IntersectionObserver((entries, observer) => {
