@@ -571,7 +571,7 @@ footer{
             justify-content: center;
         }
         .gallery img {
-            width: 50%;
+            width: 240px;
             height: auto;
             object-fit: cover;
             cursor: pointer;
