@@ -726,9 +726,6 @@ p.caption{
         display: flex;
         position: fixed;
     }
-    .works h4{
-        display: none;
-    }
     .menu.pc {
         display: none;
     }
@@ -761,6 +758,9 @@ p.caption{
 	margin-left: 230px!important;
     width: 35%!important;
 }
+	.tab__panel-text h4{
+    font-size: 215%;
+	}
 	.works .ki1{
 		top: -30px!important;
 	}
