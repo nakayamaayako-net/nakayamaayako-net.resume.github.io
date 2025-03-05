@@ -671,6 +671,9 @@ p.caption{
     /* .menu-sp{
         display: none!important;
     } */
+	body,header{
+		width: 90%;
+	}
     .sp,
     .menu.sp,
     .profile,
