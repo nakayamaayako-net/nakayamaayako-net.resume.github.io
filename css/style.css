@@ -628,6 +628,23 @@ p.caption{
         .next {
             right: 10px;
         }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #000;
+      text-align: center;
+      padding: 10px;
+    }
+    thead tr {
+      background-color: #e6004d;
+      width: 30%;
+    }
+    tbody tr {
+      background-color: #FFF;
+      width: 70%;
+    }
 
 @media screen and (max-width:1370px){
     .tab__panel-box.is-show{
