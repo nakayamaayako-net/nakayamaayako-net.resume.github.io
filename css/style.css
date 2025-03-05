@@ -430,6 +430,7 @@ footer{
 .tab__panel-box.is-show {
     display: flex;
     justify-content: space-between;
+	margin-bottom: 260px;
 }
 .tab__panel-text{
     width: 40%;
