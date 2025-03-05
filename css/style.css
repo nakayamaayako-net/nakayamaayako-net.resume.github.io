@@ -285,7 +285,7 @@ footer{
 	font-size: 390%;
 }
 .tab__panel-text h4{
-    font-size: 160%;
+    font-size: 320%;
 /*     font-family: Noto Sans JP , Source Han San , 源ノ角ゴシック; */
     margin-bottom: 10px;
 	    transform: scale(1, 0.8);
@@ -294,7 +294,7 @@ footer{
     line-height: 1.1;
 }
 .works img{
-    width: 72%;
+    width: 100%;
     /* border: 2px solid; */
 }
 .kl-wrap,
@@ -413,11 +413,7 @@ footer{
     width: 100%; 
    }
 .tab__panel-box a{
-    width: 72%;
-}
-
-.tab__panel-box img{
-    width: 58%;
+    width: 55%;
 }
 .graphic .tab__panel-box img{
     box-shadow: none;
