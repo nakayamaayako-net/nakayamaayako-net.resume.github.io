@@ -287,7 +287,6 @@ footer{
 .tab__panel-text h4{
     font-size: 320%;
 /*     font-family: Noto Sans JP , Source Han San , 源ノ角ゴシック; */
-    margin-bottom: 10px;
 	    transform: scale(1, 0.8);
     letter-spacing: -0.2em;
     font-weight: bold;
@@ -642,7 +641,11 @@ p.caption{
     .w-cat-wrap{
         display: flex;
         justify-content: space-between;
+	    flex-wrap: wrap;
     }
+	.w-cat-wrap {
+    /* margin: 10px 0; */
+}
     br.pc{
         display: none;
     }
