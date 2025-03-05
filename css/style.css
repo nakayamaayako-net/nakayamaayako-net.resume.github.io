@@ -637,11 +637,12 @@ p.caption{
       text-align: center;
       padding: 10px;
     }
-    thead tr {
+    td:first-child, th:first-child {
       background-color: #e6004d;
       width: 30%;
+      color: #FFF;
     }
-    tbody tr {
+    td:last-child, th:last-child {
       background-color: #FFF;
       width: 70%;
     }
