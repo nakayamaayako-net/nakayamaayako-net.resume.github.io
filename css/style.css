@@ -633,7 +633,7 @@ p.caption{
       border-collapse: collapse;
     }
     th, td {
-      border: 1px solid #000;
+      border: 1px solid #f0d8d8;
       text-align: center;
       padding: 10px;
     }
