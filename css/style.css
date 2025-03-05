@@ -286,8 +286,12 @@ footer{
 }
 .tab__panel-text h4{
     font-size: 160%;
-    font-family: Noto Sans JP , Source Han San , 源ノ角ゴシック;
+/*     font-family: Noto Sans JP , Source Han San , 源ノ角ゴシック; */
     margin-bottom: 10px;
+	    transform: scale(1, 0.8);
+    letter-spacing: -0.2em;
+    font-weight: bold;
+    line-height: 1.1;
 }
 .works img{
     width: 72%;
@@ -413,8 +417,7 @@ footer{
 }
 
 .tab__panel-box img{
-    width: 100%;
-    box-shadow: 0 2px 10px #fa6e9d;
+    width: 58%;
 }
 .graphic .tab__panel-box img{
     box-shadow: none;
@@ -433,7 +436,7 @@ footer{
     justify-content: space-between;
 }
 .tab__panel-text{
-    width: 25%;
+    width: 40%;
 }
 .graphic .tab__panel-text{
     width: 37%;
