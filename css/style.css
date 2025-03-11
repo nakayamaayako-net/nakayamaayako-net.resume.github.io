@@ -755,19 +755,21 @@ th:last-child {
 }
 .works-boxies{
     width: 100%;
-    padding: 100px;
+    padding: 70px 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     background: #FFF;
     margin-bottom: 200px;
+    position: relative;
 }
 .works-box{
-    width: 20%;
+    width: 25%;
 }
 .works-boxies > img{
     width: 15px;
+    position: absolute;
 }
 
 @media screen and (max-width:1370px) {
