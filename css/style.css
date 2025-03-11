@@ -758,6 +758,7 @@ th:last-child {
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #FFF;
     margin-bottom: 200px;
 }
