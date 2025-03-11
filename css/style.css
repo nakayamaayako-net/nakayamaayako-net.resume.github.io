@@ -755,7 +755,7 @@ th:last-child {
 }
 .works-boxies{
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     background: #FFF;
