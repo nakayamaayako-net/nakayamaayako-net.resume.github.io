@@ -755,7 +755,7 @@ th:last-child {
 }
 .works-boxies{
     width: 100%;
-    padding: 50px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -764,11 +764,7 @@ th:last-child {
     margin-bottom: 200px;
 }
 .works-box{
-    flex: 1 1 30%; /* 各ボックスの幅を調整 */
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  box-sizing: border-box;
+    width: 20%;
 }
 .works-boxies > img{
     width: 15px;
