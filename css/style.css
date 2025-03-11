@@ -495,7 +495,7 @@ footer {
 .tab__panel-box.is-show {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 260px;
+    margin-bottom: 50px;
 }
 
 .tab__panel-text {
@@ -759,6 +759,7 @@ th:last-child {
     display: flex;
     justify-content: space-between;
     background: #FFF;
+    margin-bottom: 200px;
 }
 .works-box{
     width: 29%;
