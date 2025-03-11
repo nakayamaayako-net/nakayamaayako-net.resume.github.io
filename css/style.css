@@ -764,6 +764,9 @@ th:last-child {
 .works-box{
     width: 29%;
 }
+.works-boxies > img{
+    width: 15px;
+}
 
 @media screen and (max-width:1370px) {
     .tab__panel-box.is-show {
