@@ -771,6 +771,10 @@ th:last-child {
     width: 15px;
     position: absolute;
 }
+.works-boxies h5{
+    font-size: 150%;
+}
+
 
 @media screen and (max-width:1370px) {
     .tab__panel-box.is-show {
