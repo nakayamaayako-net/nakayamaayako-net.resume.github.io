@@ -316,7 +316,7 @@ document.addEventListener("DOMContentLoaded", function () {
         entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
                 setTimeout(() => {
-                    entry.target.classList.add("fade-in");
+                    entry.target.classList.add("frame-in");
                 }, index * 1000); // 1秒間隔でアニメーションを開始
             }
         });
