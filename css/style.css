@@ -775,6 +775,17 @@ th:last-child {
     font-size: 150%;
 }
 
+.works-box {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.works-box.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 @media screen and (max-width:1370px) {
 
