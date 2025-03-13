@@ -793,7 +793,9 @@ th:last-child {
 .kira-2{
     right: 33%; bottom: 50%;
 }
-
+.thanks p{
+    font-size: 120%;
+}
 @media screen and (max-width:1370px) {
 
 
