@@ -309,3 +309,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 observer.observe(img);
             });
         });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const worksBoxes = document.querySelectorAll(".works-box");
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add("fade-in");
+                }, index * 1000); // 1秒間隔でアニメーションを開始
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    worksBoxes.forEach(box => observer.observe(box));
+});
