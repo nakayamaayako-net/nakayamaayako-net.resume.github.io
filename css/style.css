@@ -985,4 +985,7 @@ th:last-child {
         height: auto;
 
     }
+    .thanks p{
+        text-align: left;
+    }
 }
