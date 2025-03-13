@@ -310,17 +310,17 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const worksBoxes = document.querySelectorAll(".works-box");
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
-            if (entry.isIntersecting) {
-                setTimeout(() => {
-                    entry.target.classList.add("frame-in");
-                }, index * 1000); // 1秒間隔でアニメーションを開始
-            }
-        });
-    }, { threshold: 0.1 });
+// document.addEventListener("DOMContentLoaded", function () {
+//     const worksBoxes = document.querySelectorAll(".works-box");
+//     const observer = new IntersectionObserver((entries) => {
+//         entries.forEach((entry, index) => {
+//             if (entry.isIntersecting) {
+//                 setTimeout(() => {
+//                     entry.target.classList.add("frame-in");
+//                 }, index * 1000); // 1秒間隔でアニメーションを開始
+//             }
+//         });
+//     }, { threshold: 0.1 });
     
-    worksBoxes.forEach(box => observer.observe(box));
-});
+//     worksBoxes.forEach(box => observer.observe(box));
+// });
