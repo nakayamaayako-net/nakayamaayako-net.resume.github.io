@@ -805,14 +805,16 @@ th:last-child {
     .kl-wrap,
     .works,
     .tab,
-    .thanks {
+    .thanks,
+    .works-boxies{
         display: block;
     }
 
     .pr-l,
     .pr-r,
     .kl-l,
-    .kl-r {
+    .kl-r ,
+    .works-box{
         width: 100%;
     }
 
