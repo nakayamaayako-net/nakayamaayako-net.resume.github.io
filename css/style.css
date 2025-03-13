@@ -916,6 +916,12 @@ th:last-child {
     .works .ki1 {
         top: -30px !important;
     }
+    .works-boxies{
+        padding: 70px 40px;
+    }
+    .works-box:not(:last-child){
+        margin-bottom: 50px;
+    }
 
     .profile .ki1,
     profile .ki2 {
