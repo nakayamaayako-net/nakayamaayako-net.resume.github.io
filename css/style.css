@@ -781,8 +781,12 @@ th:last-child {
 .works-boxies h5{
     font-size: 150%;
 }
-
-
+.kira-1{
+    left: 33%; bottom: 50%;
+}
+.kira-2{
+    right: 33%; bottom: 50%;
+}
 
 @media screen and (max-width:1370px) {
 
@@ -950,6 +954,12 @@ th:last-child {
 
     .w-cat-wrap {
         /* margin: 10px 0; */
+    }
+    .kira-1{
+        top: 33%; left: 50%;
+    }
+    .kira-2{
+        right: 50%; bottom: 35%;
     }
 
     br.pc {
