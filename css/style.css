@@ -780,6 +780,12 @@ th:last-child {
 }
 .works-boxies h5{
     font-size: 150%;
+    border-bottom: 3px solid;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.works-box p{
+    font-size: 110%;
 }
 .kira-1{
     left: 33%; bottom: 50%;
