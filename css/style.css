@@ -94,11 +94,12 @@ header {
 }
 
 .hero-content {
-    text-align: center; /* Center hero text */
-    padding-left: 0; /* Remove left padding */
+    text-align: left; /* Align hero text to the left */
+    padding-left: 50px; /* Adjust as needed */
 }
 
 .hero-title {
+    font-family: Arial, sans-serif; /* Set font to Arial */
     font-size: 70px;
     font-weight: bold;
     line-height: 1.2;
@@ -119,6 +120,7 @@ header {
 }
 
 .hero-description {
+    font-family: 'Yu Gothic', '游ゴシック', 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif; /* Set font to Yu Gothic */
     font-size: 18px;
     color: #3f454f;
 }
