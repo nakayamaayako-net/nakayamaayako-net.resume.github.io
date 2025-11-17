@@ -136,52 +136,7 @@ header {
     color: #3f454f;
 }
 
-.circular-text-container {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    width: 300px; /* Diameter */
-    height: 300px;
-    border: 1px solid #4f74bb; /* Visible circle */
-    border-radius: 50%;
-    display: flex; /* Use flex to center the rotating text container */
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Hide anything outside the circle container */
-}
-
-.circular-text {
-    position: relative; /* For absolute positioning of spans */
-    width: 100%; /* Occupy full space of container */
-    height: 100%;
-    animation: rotateText 15s linear infinite;
-}
-
-.circular-text span {
-    position: absolute;
-    top: 50%; /* Position the vertical center of the character at the vertical center of the circular-text div */
-    left: 50%; /* Position the horizontal center of the character at the horizontal center of the circular-text div */
-    transform-origin: 0 0; /* Reset transform origin for individual chars */
-    font-size: 18px;
-    color: #4f74bb;
-    font-family: Arial, sans-serif;
-    white-space: nowrap;
-    /* The trick: move to the outer edge, then rotate around the center */
-    transform: translate(-50%, -50%) /* Center the character itself */
-               translateX(150px) /* Move out from center by radius (300px/2) */
-               rotate(calc(var(--i) * (360deg/35))); /* Rotate each character */
-}
-
-/* The previous .circular-text span:nth-child(n) rule is now combined into the main span rule */
-
-@keyframes rotateText {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
+/* Removed circular text styles */
 
 /* Removed old header and menu styles */
 
