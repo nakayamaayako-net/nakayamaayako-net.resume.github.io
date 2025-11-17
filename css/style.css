@@ -826,6 +826,7 @@ footer {
     max-width: 90%;
     max-height: 90%;
     border-radius: 5px;
+    object-fit: contain; /* Ensure images maintain aspect ratio */
 }
 
 .modal.active {
