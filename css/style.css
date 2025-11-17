@@ -136,6 +136,14 @@ header {
     color: #3f454f;
 }
 
+.nicetomeetyou-img {
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    right: 50px; /* Adjust as needed */
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+}
+
 /* Removed circular text styles */
 
 /* Removed old header and menu styles */
