@@ -167,8 +167,10 @@ header {
     text-align: center;
     padding: 20px;
     background-color: #f0f0f0;
-    position: relative; /* Ensure z-index works */
-    z-index: 1001; /* Ensure it's above the fixed header */
+    position: static; /* Reset position */
+    z-index: auto; /* Reset z-index */
+    margin-top: 100px; /* Add space above the section */
+    margin-bottom: 50px; /* Add space below the section, adjust as needed */
 }
 
 #top-thanks-section p {
