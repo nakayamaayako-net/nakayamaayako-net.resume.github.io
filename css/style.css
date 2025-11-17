@@ -120,6 +120,7 @@ header {
     line-height: 1.2;
     margin-bottom: 20px;
     color: #3f454f; /* Default color for title */
+    letter-spacing: 0.1em;
 }
 
 .hero-title .name {
@@ -138,6 +139,8 @@ header {
     font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 18px;
     color: #3f454f;
+    font-weight: bold;
+    letter-spacing: 0.1em;
 }
 
 .nicetomeetyou-img {
