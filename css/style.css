@@ -74,7 +74,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 7.5%; /* Add horizontal padding to match body width */
+    padding: 2% 7.5%; /* Add horizontal padding to match body width */
     margin-bottom: 50px; /* Adjusted space between header and hero */
     position: fixed; /* Make it fixed */
     top: 0; /* Position at the top */
