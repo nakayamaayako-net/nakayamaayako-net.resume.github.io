@@ -82,6 +82,9 @@ header {
     background-color: #e8eaed; /* Match body background */
     z-index: 1000; /* Ensure it stays on top */
 }
+.header-content{
+    padding: 2% 7.5%; /* Adjust horizontal and vertical padding */
+}
 
 .site-title a {
     font-size: 20px;
