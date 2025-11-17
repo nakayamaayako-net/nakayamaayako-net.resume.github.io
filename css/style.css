@@ -434,7 +434,7 @@ footer {
 .right-column {
     width: 50%;
     line-height: 1.8;
-    font-family: '游ゴシック', 'Yu Gothic'!important;
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 16px;
 }
 
