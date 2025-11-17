@@ -376,10 +376,7 @@ footer {
 
 /* New Profile Section Styles */
 #new-profile-section {
-    width: 85%;
-    max-width: 1600px;
-    margin: 100px auto 0 auto;
-    padding: 20px;
+    margin: 0 auto;
 }
 
 .profile-heading {
