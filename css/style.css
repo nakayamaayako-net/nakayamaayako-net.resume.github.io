@@ -434,7 +434,7 @@ footer {
 .right-column {
     width: 50%;
     line-height: 1.8;
-    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
+    font-family: '游ゴシック', 'Yu Gothic'!important;
     font-size: 16px;
 }
 
@@ -454,7 +454,7 @@ footer {
 }
 
 .job-title {
-    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
+font-family: '游ゴシック', 'Yu Gothic';
     font-size: 20px;
     margin-bottom: 10px;
 }
