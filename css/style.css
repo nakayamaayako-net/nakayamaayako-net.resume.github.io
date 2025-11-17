@@ -459,6 +459,7 @@ footer {
     font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .skill {
