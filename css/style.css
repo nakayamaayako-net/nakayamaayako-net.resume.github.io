@@ -626,7 +626,7 @@ footer {
 .tab__panel-box.is-show {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 170px;
 }
 
 .tab__panel-text {
