@@ -608,7 +608,7 @@ footer {
 }
 
 .tab__panel-box a {
-    width: 55%;
+    width: 60%;
 }
 
 .graphic .tab__panel-box img {
@@ -876,7 +876,7 @@ td {
 td:first-child,
 th:first-child {
     background-color: #4772AB;
-    width: 30%;
+    width: 25%;
     color: #FFF;
 }
 
