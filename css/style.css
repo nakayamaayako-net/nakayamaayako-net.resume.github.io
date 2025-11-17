@@ -23,8 +23,8 @@ body {
     width: 100%; */
     margin: 0 auto;
     scroll-behavior: smooth;
-    background: #f0d8d8;
-    color: #e6004d;
+    background: #e8eaed;
+    color: #3f454f;
     animation: fadein 1s forwards;
 
 }
@@ -57,48 +57,107 @@ a {
 }
 
 header {
-    display: inline-block;
-    width: 85%;
-    max-width: 1600px;
-    position: fixed;
-    padding-top: 220px;
-    /* padding-left: 20px; */
+    width: 100%; /* Full width */
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 0; /* Remove top padding */
+    position: relative;
+    text-align: center; /* Center header content */
 }
 
-/* .logo{
-    transition: 0.5s;
-} */
+.header-content {
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px; /* Adjusted space between header and hero */
+}
+
+.site-title a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f454f; /* Changed to gray */
+    text-decoration: none;
+}
+
+.global-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.global-nav li a {
+    font-size: 18px;
+    color: #3f454f; /* Changed to gray */
+    text-decoration: none;
+}
+
+.hero-content {
+    text-align: center; /* Center hero text */
+    padding-left: 0; /* Remove left padding */
+}
+
+.hero-title {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #3f454f; /* Default color for title */
+}
+
+.hero-title .name {
+    color: #3f454f; /* Gray for AYAKO NAKAYAMA */
+}
+
+.hero-title .portfolio {
+    color: #4f74bb; /* Blue for PORTFOLIO */
+}
+
+.hero-title .site {
+    color: #3f454f; /* Gray for SITE */
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #3f454f;
+}
+
+
+/* Removed old header and menu styles */
+
 .logo h1 {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
 }
 
 .logo.to-top {
-    width: 10%;
+    /* width: 10%;
     padding-top: 23px;
-    /* padding-left: 20px; */
     z-index: 11;
-    transition: 0.5s;
+    transition: 0.5s; */
+    display: none;
 }
 
 .logo.to-top img {
-    width: 125.73px;
+    /* width: 125.73px; */
+    display: none;
 }
 
 .menu {
-    position: relative;
-    /* 初期状態では通常のフローに従う */
-    /* transition: position 0.5s ease, top 0.5s ease; */
-    /* background: #f0d8d8; */
+    /* position: relative; */
+    display: none;
 }
 
 .menu.to-top {
-    width: 85%;
+    /* width: 85%;
     margin: 23px auto 0 auto;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 10; */
+    display: none;
 }
 
 .menu.to-top li .d-top,
@@ -107,28 +166,23 @@ header {
 }
 
 header img {
-    /* height: 100%; */
+    display: none;
 }
 
-header,
-nav ul {
-    display: flex;
+header, nav ul {
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 nav ul {
-    /* justify-content: space-around; */
-    width: 100%;
+    /* width: 100%;
     max-width: 1600px;
-    font-size: 30px;
-    /* border-top: 3px #e6004d solid;
-    border-bottom: 3px #e6004d solid;
-    padding: 10px 20px; */
+    font-size: 30px; */
 }
 
 .menu div {
-    display: flex;
+    /* display: flex; */
 }
 
 /* .menu div:nth-child(2){
@@ -214,18 +268,19 @@ nav ul {
 }
 
 .to-top .d-logo {
-    display: block;
+    display: none;
 }
 
 .top {
     height: calc(100vh - 125px);
-    padding-top: 400px;
-    text-align: right;
+    padding-top: 0px; /* Removed extra padding */
+    text-align: left; /* Changed alignment */
 }
 
 .top h2 {
-    font-size: 22px;
-    padding: 10px;
+    /* font-size: 22px;
+    padding: 10px; */
+    display: none;
 }
 
 .profile,
