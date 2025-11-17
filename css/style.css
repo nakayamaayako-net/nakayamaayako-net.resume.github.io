@@ -138,16 +138,16 @@ header {
 
 .circular-text-container {
     position: absolute;
-    bottom: 50px; /* Adjust as needed */
-    right: 50px; /* Adjust as needed */
-    width: 200px;
-    height: 200px;
-    border: 1px solid #4f74bb;
+    bottom: 0px; /* Adjusted to be further down */
+    right: 0px; /* Adjusted to be further right */
+    width: 350px; /* Increased size */
+    height: 350px; /* Increased size */
+    border: none; /* Remove border from container */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden; /* Keep overflow hidden for container */
 }
 
 .circular-text {
@@ -160,10 +160,10 @@ header {
 .circular-text span {
     position: absolute;
     left: 50%;
-    font-size: 16px;
+    font-size: 18px; /* Adjusted font size */
     color: #4f74bb;
     font-family: Arial, sans-serif;
-    transform-origin: 0 100px; /* Adjust based on container height/2 */
+    transform-origin: 0 175px; /* Adjust transform-origin to half of new height/width for outer rotation */
 }
 
 .circular-text span:nth-child(n) {
