@@ -374,6 +374,72 @@ footer {
     font-weight: bold;
 }
 
+/* New Profile Section Styles */
+#new-profile-section {
+    width: 85%;
+    max-width: 1600px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+}
+
+.profile-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.blue-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #4f74bb;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3f454f;
+    font-family: Arial, sans-serif;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 45%;
+}
+
+.right-column {
+    width: 50%;
+    line-height: 1.8;
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
+    font-size: 16px;
+}
+
+.profile-name {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.gray-text {
+    color: #3f454f;
+}
+
+.blue-text {
+    color: #4f74bb;
+}
+
+.job-title {
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .skill {
     position: relative;
     text-align: center;
