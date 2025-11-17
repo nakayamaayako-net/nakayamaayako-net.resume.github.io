@@ -74,7 +74,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 7.5%; /* Add horizontal padding to match body width */
+    padding:  7.5%; /* Add horizontal padding to match body width */
     margin-bottom: 50px; /* Adjusted space between header and hero */
     position: fixed; /* Make it fixed */
     top: 0; /* Position at the top */
@@ -434,7 +434,7 @@ footer {
 .right-column {
     width: 50%;
     line-height: 1.8;
-    font-family: '游ゴシック', 'Yu Gothic'!important;
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 16px;
 }
 
@@ -454,7 +454,7 @@ footer {
 }
 
 .job-title {
-font-family: '游ゴシック', 'Yu Gothic';
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
 }
