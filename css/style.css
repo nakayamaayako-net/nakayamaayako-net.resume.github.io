@@ -67,13 +67,19 @@ header {
 }
 
 .header-content {
-    width: 85%;
-    max-width: 1600px;
+    width: 100%;
+    max-width: 100%; /* Ensure it spans full width */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 7.5%; /* Add horizontal padding to match body width */
     margin-bottom: 50px; /* Adjusted space between header and hero */
+    position: fixed; /* Make it fixed */
+    top: 0; /* Position at the top */
+    left: 0;
+    background-color: #e8eaed; /* Match body background */
+    z-index: 1000; /* Ensure it stays on top */
 }
 
 .site-title a {
