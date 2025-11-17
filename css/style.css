@@ -434,10 +434,12 @@ footer {
 .right-column {
     width: 50%;
     line-height: 1.8;
-    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 16px;
 }
+.right-column p{
 
+    font-family: '游ゴシック', 'Yu Gothic';
+}
 .profile-name {
     font-family: Arial, sans-serif;
     font-size: 48px;
