@@ -143,7 +143,6 @@ header {
     width: 300px; /* Adjust size as needed */
     height: auto;
     z-index: 10; /* Ensure it's above other elements */
-    background-color: rgba(255, 0, 0, 0.5); /* Temporary: make it visible */
 }
 
 /* Removed circular text styles */
@@ -190,7 +189,7 @@ header {
 }
 
 header img {
-    display: none;
+    /* display: none; */
 }
 
 header, nav ul {
