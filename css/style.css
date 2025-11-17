@@ -630,7 +630,8 @@ footer {
 }
 
 .tab__panel-text {
-    width: 40%;
+    width: 38%;
+    font-size: 100%;
 }
 
 .graphic .tab__panel-text {
