@@ -60,13 +60,10 @@ header {
     width: 100%; /* Full width */
     max-width: 100%;
     margin: 0 auto;
-    padding-top: 0; /* Remove top padding */
+    padding-top: 50px; /* Adjust as needed */
     position: relative;
     text-align: center; /* Center header content */
     height: 100vh; /* Set height to 100vh */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .header-content {
@@ -99,8 +96,11 @@ header {
 
 .hero-content {
     text-align: left; /* Align hero text to the left */
-    padding-left: 50px; /* Adjust as needed */
-    margin-top: -50px; /* Adjust as needed to fine-tune vertical centering */
+    padding-left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
 }
 
 .hero-title {
