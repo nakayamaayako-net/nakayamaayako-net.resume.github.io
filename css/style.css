@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, -apple-system, Segoe UI, Helvetica Neue, sans-serif, 'Noto Serif JP', serif; /* Prioritize Arial, then system sans-serif, then Noto Serif JP */
+    font-family: Arial, -apple-system, Segoe UI, Helvetica Neue, sans-serif;
 }
 
 .profile,
@@ -43,6 +43,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     height: 100%;
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
 }
 
 li {
@@ -50,7 +51,7 @@ li {
 }
 
 a {
-    color: #e6004d;
+    color: #4772AB;
     font-weight: bold;
     /* text-decoration: none; */
 }
@@ -62,6 +63,7 @@ header {
     padding-top: 0; /* Remove top padding */
     position: relative;
     text-align: center; /* Center header content */
+    height: 100vh; /* Set height to 100vh */
 }
 
 .header-content {
@@ -119,7 +121,7 @@ header {
 }
 
 .hero-description {
-    font-family: 'Yu Gothic', '游ゴシック', 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif; /* Set font to Yu Gothic */
+    font-family: '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック', 'メイリオ', Meiryo, sans-serif;
     font-size: 18px;
     color: #3f454f;
 }
@@ -206,7 +208,7 @@ nav ul {
 
 .hamburger span {
     display: block;
-    background: #e6004d;
+    background: #4772AB;
     height: 3px;
     width: 100%;
     border-radius: 5px;
@@ -256,7 +258,7 @@ nav ul {
 
 .menu-sp a {
     /* text-decoration: none; */
-    color: #e6004d;
+    color: #4772AB;
     font-size: 24px;
 }
 
@@ -420,7 +422,7 @@ footer {
 .tags h5 {
     color: #FFF;
     font-weight: bold;
-    background: #e6004d;
+    background: #4772AB;
     padding: 5px 20px;
     border-radius: 30px;
     margin-right: 5px;
@@ -468,7 +470,7 @@ footer {
     height: 100%;
     width: 0;
     /* 初期状態では0 */
-    background-color: #e6004d;
+    background-color: #4772AB;
     /* スキルバーの色 */
     transition: width 3s cubic-bezier(0.22, 1, 0.36, 1);
     /* スキルバーが伸びる速度を調整 */
@@ -498,7 +500,7 @@ footer {
     text-align: center;
     margin: 0 0 18px 0;
     background-color: #f0d8d8;
-    border: 2px solid #e6004d;
+    border: 2px solid #4772AB;
     border-radius: 50px;
     cursor: pointer;
     transition: all .3s;
@@ -521,7 +523,7 @@ footer {
 
 /* is-activeがついている時のスタイル */
 .tab__menu-item.is-active {
-    background-color: #e6004d;
+    background-color: #4772AB;
     color: #ffffff;
     font-size: 120%;
     width: 40%;
@@ -577,7 +579,7 @@ footer {
 .w-cat {
     color: #FFF;
     font-weight: bold;
-    background-color: #e6004d;
+    background-color: #4772AB;
     padding: 7px 20px;
     border-radius: 50px;
     font-family: Noto Sans JP, Source Han San, 源ノ角ゴシック;
@@ -637,7 +639,7 @@ a.w-cat img {
     color: #FFF;
     font-weight: bold;
     padding: 5px 10px;
-    background-color: #e6004d;
+    background-color: #4772AB;
     border-radius: 30px;
     display: inline-block;
     margin-top: 10px;
@@ -652,11 +654,11 @@ a.w-cat img {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #e6004d !important;
+    color: #4772AB !important;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #e6004d !important;
+    background-color: #4772AB !important;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets,
@@ -678,7 +680,7 @@ footer {
     font-size: 20px;
     padding: 30px;
     text-align: center;
-    border-top: 3px #e6004d solid;
+    border-top: 3px #4772AB solid;
 }
 
 .sp,
@@ -799,7 +801,7 @@ td {
 
 td:first-child,
 th:first-child {
-    background-color: #e6004d;
+    background-color: #4772AB;
     width: 30%;
     color: #FFF;
 }
