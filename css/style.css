@@ -4,8 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Calisto MT', -apple-system, Segoe UI, Helvetica Neue, Hiragino Kaku Gothic ProN, "メイリオ", meiryo, sans-serif;
-    font-family: 'Noto Serif JP', serif;
+    font-family: Arial, -apple-system, Segoe UI, Helvetica Neue, sans-serif, 'Noto Serif JP', serif; /* Prioritize Arial, then system sans-serif, then Noto Serif JP */
 }
 
 .profile,
